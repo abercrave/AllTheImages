@@ -52,6 +52,7 @@
     var init = function() {
       $_element = $(element);
       $_images = $_element.find('img');
+      numImages = $_images.length;
       numImagesLoaded = 0;
       numImagesVisible = null;
       if (numImages === 0) {
